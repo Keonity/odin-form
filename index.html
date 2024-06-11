@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="panelBg">
+        <img src=./assets/panelLogo.png id="panelLogo">
+    </div>
+    <div id="formContainer">
+        <div class="formHeader">
+            <h2>Watatsumi Grove</h2>
+            <h3>Sign Up Form</h3>
+            <p>This is not a real sign-up form! This assignment is designed by The Odin Project.</p>
+            <p>Watatsumi Grove is a luxury resort on Watatsumi Island in Inazuma. Discover lush, magical legends of the sea.</p>
+        </div>
+        <div class="formBody">
+            <form action="" method="post" id="form">
+                <div class="fieldRow">
+                    <div>
+                        <label for="fName">First Name</label>
+                        <input type="text" id="fName">
+                    </div>
+                    <div>
+                        <label for="lName">Last Name</label>
+                        <input type="text" id="lName">
+                    </div>
+                </div>
+                <div class="fieldRow">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone">
+                    </div>
+                </div>
+                <div class="fieldRow">
+                    <div>
+                        <label for="passw">Password</label>
+                        <input type="password" id="passw">
+                    </div>
+                    <div>
+                        <label for="cPassW">Confirm Password</label>
+                        <input type="password" id="cPassW">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="formLogin">
+            <input type="submit" form="form" value="Create Account"></button>
+            <div class="loginPrompt">
+                <p>Already have an account?</p>
+                <a href="index.html" id="login">Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
