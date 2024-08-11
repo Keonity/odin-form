@@ -24,14 +24,16 @@ body {
     position: relative;
     height: 100vh;
     width: 33vw;
+    z-index: -1;
 }
 
 #panelLogo {
     position: absolute;
     background-color: rgba(51, 51, 51, 0.719);
-    top: -100px;
-    left: -431px;
-    scale: 0.33;
+    top: 4rem;
+    left: -20.5rem;
+    height: auto;
+    width: 33.33%;
     padding-left: 450px;
     padding-right: 450px;
     padding-top: 10px;
