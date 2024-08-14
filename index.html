@@ -18,35 +18,36 @@
             <p>Watatsumi Grove is a luxury resort on Watatsumi Island in Inazuma. Discover lush, magical legends of the sea.</p>
         </div>
         <div class="formBody">
-            <form action="" method="post" id="form">
+            <span class="error" aria-live="polite"></span>
+            <form action="" method="post" id="form" novalidate>
                 <div class="fieldRow">
                     <div>
                         <label for="fName">First Name</label>
-                        <input type="text" id="fName">
+                        <input required type="text" id="fName">
                     </div>
                     <div>
                         <label for="lName">Last Name</label>
-                        <input type="text" id="lName">
+                        <input required type="text" id="lName">
                     </div>
                 </div>
                 <div class="fieldRow">
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" id="email">
+                        <input required type="email" id="email" minlength=5>
                     </div>
                     <div>
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone">
+                        <input required type="tel" id="phone" minlength=10>
                     </div>
                 </div>
                 <div class="fieldRow">
                     <div>
                         <label for="passw">Password</label>
-                        <input type="password" id="passw">
+                        <input required type="password" id="passw">
                     </div>
                     <div>
                         <label for="cPassW">Confirm Password</label>
-                        <input type="password" id="cPassW">
+                        <input required type="password" id="cPassW">
                     </div>
                 </div>
             </form>
@@ -59,5 +60,6 @@
             </div>
         </div>
     </div>
+    <script defer type="text/javascript" src="./index.js"></script>
 </body>
 </html>
