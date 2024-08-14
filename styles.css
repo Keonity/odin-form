@@ -108,7 +108,7 @@ input[type='submit'] {
     margin-right: 50px;
 }
 
-#fName, #lName, #passw, #cPassW, #email, #phone {
+input {
     width: 150px;
     background-color: rgba(255, 255, 255, 0.226);
     border: none;
@@ -125,7 +125,7 @@ input[type='submit'] {
   
     font-size: 80%;
     color: white;
-    background-color: #900;
+    background-color: rgba(153, 0, 59, 0.63);
     border-radius: 0 0 5px 5px;
   
     box-sizing: border-box;
@@ -133,4 +133,18 @@ input[type='submit'] {
   
 .error.active {
     padding: 0.3em;
+}
+
+input:invalid {
+    background-color: rgba(153, 0, 59, 0.63);
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input:valid {
+    background-color:  rgb(150, 225, 255);
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid black;
 }
